@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+	<ItemGroup>
+	
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+	
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.0" />
+	
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	</ItemGroup>
+	
+  <ItemGroup>
+    <Folder Include="Features\Brands\Constants\" />
+    <Folder Include="Features\Models\Commands\" />
+    <Folder Include="Features\Models\Constants\" />
+    <Folder Include="Features\Models\Rules\" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\core.Packages\Core.Application\Core.Application.csproj" />
+    <ProjectReference Include="..\core.Packages\Core.CrossCuttingConcers\Core.CrossCuttingConcerns.csproj" />
+    <ProjectReference Include="..\core.Packages\Core.Persistence\Core.Persistence.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>
