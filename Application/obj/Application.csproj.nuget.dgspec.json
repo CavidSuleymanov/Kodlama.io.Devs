@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Application\\Application.csproj": {}
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Application\\Application.csproj": {
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Application\\obj\\",
+        "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -33,17 +33,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Domain\\Domain.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Domain\\Domain.csproj"
               }
             }
           }
@@ -57,6 +57,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -68,24 +82,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj": {
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj",
         "projectName": "Core.Application",
-        "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\obj\\",
+        "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj",
+        "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,11 +120,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj"
               }
             }
           }
@@ -119,6 +138,28 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -130,24 +171,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
+        "projectUniqueName": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
         "projectName": "Core.CrossCuttingConcerns",
-        "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\obj\\",
+        "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
+        "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.CrossCuttingConcers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -174,6 +220,36 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -185,24 +261,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj",
         "projectName": "Core.Persistence",
-        "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\obj\\",
+        "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj",
+        "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -229,6 +310,20 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.3.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -240,24 +335,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj": {
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj",
+        "projectUniqueName": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj",
         "projectName": "Core.Security",
-        "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Security\\obj\\",
+        "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Security\\Core.Security.csproj",
+        "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Security\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -273,8 +373,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj"
               }
             }
           }
@@ -288,6 +388,32 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            },
+            "Otp.NET": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -299,24 +425,29 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Domain\\Domain.csproj": {
+    "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ilkin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ilkin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -332,11 +463,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Application\\Core.Application.csproj"
               },
-              "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
-                "projectPath": "C:\\Users\\HP\\Desktop\\asdas\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj"
+              "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj": {
+                "projectPath": "C:\\Users\\ilkin\\source\\repos\\cavid\\Kodlama.io.Devs\\core.Packages\\Core.Persistence\\Core.Persistence.csproj"
               }
             }
           }
@@ -361,7 +492,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
